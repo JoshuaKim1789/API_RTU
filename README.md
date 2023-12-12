@@ -1,5 +1,7 @@
 <span style="font-size:2em; font-weight: bold;">API RTU Setup</span>
 
+Last modified: Dec. 12, 2023
+
 # USR N-510
 
 ## Status
@@ -68,7 +70,8 @@
 >>>>> - Periodic reporting: [v]
 >>>>> - Reporting interval: 1
 >>>>> - Reporting on regular: [ ]
->>>>> - Failure Padding: [ ]
+>>>>> - Failure Padding: [v]
+>>>>> - Content of Padding: null
 >>>>> - Quotation Mark: [ ]
 >>>>> - Json template: *report.json*
 
