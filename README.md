@@ -2,9 +2,14 @@
 
 Last modified: Dec. 13, 2023
 
-## Table of Contents
+# Model: USR-N510
 
-# USR N-510
+### Application Case
+
+> - Periodically scan Modbus-RTU slaves.
+> - Function as a TCP Server, responding to TCP Clients in JSON format.
+
+## Table of Contents
 
 - [Status](#Status)
 - [Network](#Network)
