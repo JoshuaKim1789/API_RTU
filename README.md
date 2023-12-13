@@ -66,25 +66,24 @@ Last modified: Dec. 12, 2023
 >> #### Basic configuration
 >>> - Enable MQTT: Disable
 > ### Edge Computing
->> #### Setting
->>> ##### Edge Computing
->>>> - Enable Edge Computing: Enable
->>> ##### Data Acquisition
->>>> *Modbus-RTU slave addresses define page*
->>> ##### Data Query and Report
->>>> - Socket type: Socket1
->>>> ###### Data Query
->>>>> - Data Query: Enable
->>>>> - Query type: Json
->>>> ###### Data Reports of nodes
->>>>> - Reporting method: Enable
->>>>> - Periodic reporting: [v]
->>>>> - Reporting interval: 1
->>>>> - Reporting on regular: [ ]
->>>>> - Failure Padding: [v]
->>>>> - Content of Padding: null
->>>>> - Quotation Mark: [ ]
->>>>> - Json template: *report.json*
+>> #### Edge Computing
+>>> - Enable Edge Computing: Enable
+>> #### Data Acquisition
+>>> _Modbus-RTU slave addresses define page_
+>> #### Data Query and Report
+>>> - Socket type: Socket1
+>>> ##### Data Query
+>>>> - Data Query: Enable
+>>>> - Query type: Json
+>>> ##### Data Reports of nodes
+>>>> - Reporting method: Enable
+>>>> - Periodic reporting: [v]
+>>>> - Reporting interval: 1
+>>>> - Reporting on regular: [ ]
+>>>> - Failure Padding: [v]
+>>>> - Content of Padding: null
+>>>> - Quotation Mark: [ ]
+>>>> - Json template: *report.json*
 
 ## Cloud Service
 > ### USR Cloud
@@ -99,21 +98,20 @@ Last modified: Dec. 12, 2023
 
 ## System
 > ### System Setting
->> #### System Setting
->>> - Model Name: USR-N510
->>> - Websocket Port: 6432
->>> - Websocket Direction: UART1
->>> - Webserver Port: 80
->>> - User Name: admin
->>> - UART Cache: OFF
->>> - Restarting Without Data: 0
->>> - SNMP: OFF
->>> - Telnet: OFF
->>> - NTP: ON
->>> - NTP Server Address: cn.ntp.org.cn
->>> - NTP Timezone Setting: UTC+9
->>> - 485 Anit-Collision: ON
->>> - 485-Idle Time: 10
+>> - Model Name: USR-N510
+>> - Websocket Port: 6432
+>> - Websocket Direction: UART1
+>> - Webserver Port: 80
+>> - User Name: admin
+>> - UART Cache: OFF
+>> - Restarting Without Data: 0
+>> - SNMP: OFF
+>> - Telnet: OFF
+>> - NTP: ON
+>> - NTP Server Address: cn.ntp.org.cn
+>> - NTP Timezone Setting: UTC+9
+>> - 485 Anit-Collision: ON
+>> - 485-Idle Time: 10
 
 > ### Management
 >>> Firmware upgrade
