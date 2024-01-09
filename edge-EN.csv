@@ -1,3 +1,3 @@
 Device-name,Port-number,Slave-address,Polling-interval,Mapped-address,Merge-collection,,Node-name,Function-code,Register-Address,Data-type,Response-Timeout,Reporting-on-change,Variation-range,Mapped-address,Formula
-device01,1,1,250,N/A,OFF,,IN0,3,0,uint16,200,OFF,,N/A,,
+device01,1,90,250,N/A,OFF,,IN0,3,0,uint16,200,OFF,,N/A,,
 device02,1,2,500,N/A,OFF,,UREG32,3,0,uint32(ABCD),200,OFF,,N/A,,
