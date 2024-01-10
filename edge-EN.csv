@@ -1,3 +1,6 @@
 Device-name,Port-number,Slave-address,Polling-interval,Mapped-address,Merge-collection,,Node-name,Function-code,Register-Address,Data-type,Response-Timeout,Reporting-on-change,Variation-range,Mapped-address,Formula
-device01,1,90,250,N/A,OFF,,IN0,3,0,uint16,200,OFF,,N/A,,
-device02,1,2,500,N/A,OFF,,UREG32,3,0,uint32(ABCD),200,OFF,,N/A,,
+Structure_Sensor,1,90,250,N/A,OFF,,IN0,3,0,uint16,200,OFF,,N/A,,
+Modbus_Slave,1,2,500,N/A,OFF,,UREG32,3,0,uint32(ABCD),200,OFF,,N/A,,
+Weather_Station,1,202,100,N/A,OFF,,WS,3,500,uint16,200,OFF,,N/A,,
+Weather_Station,1,202,100,N/A,OFF,,WD,3,503,uint16,200,OFF,,N/A,,
+Weather_Station,1,202,100,N/A,OFF,,TA,3,505,int16,200,OFF,,N/A,,
