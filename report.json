@@ -1,1 +1,7 @@
-{"IN0":"IN0","UREG32":"UREG32"}
+{
+   "IN0":"IN0",
+   "WS":"WS",
+   "WD":"WD",
+   "TA":"TA",
+   "UREG32":"UREG32"
+}
