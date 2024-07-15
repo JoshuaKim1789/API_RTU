@@ -1,6 +1,6 @@
 <span style="font-size:2em; font-weight: bold;">API RTU Setup</span>
 
-Last modified: May 2, 2024
+Last modified: July 15, 2024
 
 # Model: USR-N510
 
@@ -22,7 +22,7 @@ Last modified: May 2, 2024
 
 ## Status
 - Model Name: USR-N510
-- Firmware Version: V2.0.8
+- Firmware Version: **V2.0.19**
 - Type: H7
 
 ## Network
@@ -54,7 +54,7 @@ Last modified: May 2, 2024
 >> #### Socket
 >>> Socket A
 >>>> - Working Mode: TCP Server / None
->>>> - Maximum Sockets supported: 16 / Exceeding Maximum: KICK
+>>>> - Maximum Sockets supported: 8 / Exceeding Maximum: KICK
 >>>> - Local Port Number: 23
 >>>> - PRINT: OFF
 >>>> - Modbus Poll [ ] / Response Timeout: 2000
@@ -72,21 +72,20 @@ Last modified: May 2, 2024
 >>> - Enable MQTT: Disable
 > ### Edge Computing
 >> #### Edge Computing
->>> - Enable Edge Computing: Enable
+>>> - Enable Edge Computing: **Enable**
 >> #### Data Acquisition
 >>> _Modbus-RTU slave addresses define page_
 >> #### Data Query and Report
 >>> - Socket type: Socket1
 >>> ##### Data Query
->>>> - Data Query: Enable
->>>> - Query type: Json
+>>>> - Data Query: **Disable**
 >>> ##### Data Reports of nodes
->>>> - Reporting method: Enable
->>>> - Periodic reporting: [v]
->>>> - Reporting interval: 1
+>>>> - Reporting method: **Enable**
+>>>> - Periodic reporting: [**v**]
+>>>> - Reporting interval: **3**
 >>>> - Reporting on regular: [ ]
->>>> - Failure Padding: [v]
->>>> - Content of Padding: null
+>>>> - Failure Padding: [**v**]
+>>>> - Content of Padding: **null**
 >>>> - Quotation Mark: [ ]
 >>>> - Json template: *report.json*
 
@@ -106,16 +105,17 @@ Last modified: May 2, 2024
 >> - Model Name: USR-N510
 >> - Websocket Port: 6432
 >> - Websocket Direction: UART1
+>> - Log Switch: OFF
 >> - Webserver Port: 80
 >> - User Name: admin
 >> - UART Cache: OFF
->> - Restarting Without Data: 0
+>> - Restarting Without Data: 3600
 >> - SNMP: OFF
 >> - Telnet: OFF
 >> - NTP: ON
 >> - NTP Server Address: cn.ntp.org.cn
 >> - NTP Timezone Setting: UTC+9
->> - 485 Anit-Collision: ON
+>> - 485 Anit-Collision: **ON**
 >> - 485-Idle Time: 10
 
 > ### Management
